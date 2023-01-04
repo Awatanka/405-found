@@ -1,6 +1,6 @@
 24 hour cross-functional hackathon that was organized by BrainStation in partnership with Electronic Arts (EA). 
 
-video https://drive.google.com/drive/my-drive
+video [https://drive.google.com/drive/my-drive](https://drive.google.com/file/d/19I0l5aCJG5rSYISW8m1EsAeOGmNVQN6q/view?usp=sharing)
 
  
 During this hackathon, I was working with:
