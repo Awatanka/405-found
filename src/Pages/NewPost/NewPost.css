@@ -1,0 +1,229 @@
+/* ------------------------------- PRIMARY COLORS ------------------------------- */
+/* ------------------------------- SECONDARY COLORS ------------------------------- */
+/* ------------------------------- BACKGROUND COLORS ------------------------------- */
+/* ------------------------------- SUPPORTING COLORS ------------------------------- */
+/* ------------------------------- BREAKPOINTS ------------------------------- */
+/* media query for mobile*/
+/* media query for tablet */
+/* media query for desktop */
+/* ------------------------------- LARGE DEVICE TYPOGRAPHY ------------------------------- */ /* ------------- PARTIAL IMPORTS ------------- */
+/* ------------- MIXIN FOR PADDING ------------- */
+/* -------------- MIXIN FOR BUTTON STYLING -------------- */
+/* --------------- PARTIAL IMPORTS --------------- */
+main {
+  margin: auto 0;
+  display: flex;
+  align-items: center;
+}
+
+.post {
+  background: #1D2033;
+  padding: 0 11rem;
+  display: inline-block;
+  font-family: "Myriad";
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+.post-top {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  height: 4.0625rem;
+  margin-top: 2rem;
+}
+.post-top__button-large {
+  color: #ffffff;
+  background-color: #276afc;
+  border: 1px solid #276afc;
+  border-radius: 0.375rem;
+  transition: 0.2s ease;
+  width: 5.1875rem;
+  height: 2rem;
+  padding: 0.5rem 1.0625rem;
+  cursor: pointer;
+  font-size: 0.75rem;
+}
+.post-top__button-large:hover {
+  color: #ffffff;
+  background-color: #3a74f3;
+  border: 1px solid #3a74f3;
+  border-radius: 0.375rem;
+  transition: 0.2s ease;
+  padding: 0.5rem 1.0625rem;
+  cursor: pointer;
+}
+.post-top__button-small {
+  color: #ffffff;
+  background-color: #276afc;
+  border: 1px solid #276afc;
+  border-radius: 0.375rem;
+  transition: 0.2s ease;
+  padding: 0.3rem 1rem;
+  cursor: pointer;
+}
+.post-top__button-small:hover {
+  color: #ffffff;
+  background-color: #1e1e1e;
+  border: 1px solid #1e1e1e;
+  border-radius: 0.25rem;
+  transition: 0.3s ease;
+  padding: 0.5rem 1.5rem;
+  cursor: pointer;
+}
+.post-top__image {
+  width: 48.5rem;
+  height: 24.8125rem;
+  margin-left: 8.25rem;
+}
+.post-top__search {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  margin-left: 18px;
+  margin-top: 1.3125rem;
+  width: 92%;
+  justify-content: space-between;
+  height: 3.125rem;
+}
+.post-top__search-image {
+  position: absolute;
+  left: 3.825rem;
+  padding: 0.125rem;
+}
+.post-top__search-right {
+  display: flex;
+}
+.post-top__search-arrow {
+  margin-right: 0.375rem;
+}
+.post-top__search-placeholder {
+  height: 1.375rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-right: 3.75rem;
+  background: #d7d5dd;
+  border-radius: 5px;
+  border: #9F9DA5;
+  width: 13.25rem;
+  margin-left: 0.8125rem;
+}
+.post-bottom {
+  padding: 2rem;
+}
+.post-bottom__box-text {
+  color: white;
+  padding-left: 0.5rem;
+}
+.post-bottom__box-title {
+  color: white;
+  font-size: 2.1875rem;
+  line-height: 2.5rem;
+  font-weight: 700;
+}
+.post-bottom__box-user {
+  display: flex;
+  margin: 1rem 0 2rem 0;
+  align-items: center;
+}
+.post-bottom__main {
+  display: flex;
+  flex-direction: row;
+}
+.post-bottom__icons-item {
+  width: 1.5rem;
+  margin: 0.4rem;
+}
+.post-bottom__icons-item:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+.post-bottom__left-icons {
+  display: flex;
+  flex-direction: column;
+  margin: 2.5rem 1rem;
+}
+.post-bottom__left-header {
+  padding: 1rem 0;
+  font-weight: 600;
+  font-size: 0.875rem;
+}
+.post-bottom__left-text {
+  font-size: 0.75rem;
+}
+
+.form {
+  width: 15.625rem;
+  margin: 0 2rem 0 3.75rem;
+}
+.form-button {
+  display: flex;
+  align-items: center;
+  margin: 2rem 0;
+  justify-content: space-between;
+}
+.form-input {
+  width: 250px;
+  margin-top: 3rem;
+  color: white;
+  font-family: "Myriad";
+  font-weight: 400;
+  background: #1D2033;
+  border-left: #1D2033;
+  border-right: #1D2033;
+  border-top: #1D2033;
+  border-bottom: 1px solid #D9D9D9;
+  font-size: 0.75rem;
+}
+.form-input__legend {
+  font-size: 0.5rem;
+  padding-top: 0.3rem;
+  text-align: right;
+  font-style: italic;
+  color: #9F9DA5;
+}
+.form-input__button {
+  width: 9.0625rem;
+  height: 2rem;
+  border: 1.5px solid #276AFC;
+  border-radius: 0.3125rem;
+  background: none;
+  color: white;
+}
+.form-input__button:hover {
+  color: #ffffff;
+  background-color: #1e1e1e;
+  border: 1px solid #1e1e1e;
+  border-radius: 0.25rem;
+  transition: 0.3s ease;
+  padding: 0.5rem 1.5rem;
+  cursor: pointer;
+}
+.form *:focus {
+  outline: none;
+}
+.form ::-moz-placeholder {
+  color: #9F9DA5;
+  position: absolute;
+  bottom: 0;
+  padding: 0;
+  margin: 0;
+}
+.form :-ms-input-placeholder {
+  color: #9F9DA5;
+  position: absolute;
+  bottom: 0;
+  padding: 0;
+  margin: 0;
+}
+.form ::placeholder {
+  color: #9F9DA5;
+  position: absolute;
+  bottom: 0;
+  padding: 0;
+  margin: 0;
+}/*# sourceMappingURL=NewPost.css.map */

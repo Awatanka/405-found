@@ -1,0 +1,123 @@
+/* ------------------------------- PRIMARY COLORS ------------------------------- */
+/* ------------------------------- SECONDARY COLORS ------------------------------- */
+/* ------------------------------- BACKGROUND COLORS ------------------------------- */
+/* ------------------------------- SUPPORTING COLORS ------------------------------- */
+/* ------------------------------- BREAKPOINTS ------------------------------- */
+/* media query for mobile*/
+/* media query for tablet */
+/* media query for desktop */
+/* ------------------------------- LARGE DEVICE TYPOGRAPHY ------------------------------- */ /* ------------- PARTIAL IMPORTS ------------- */
+/* ------------- MIXIN FOR PADDING ------------- */
+/* -------------- MIXIN FOR BUTTON STYLING -------------- */
+/* --------------- PARTIAL IMPORTS --------------- */
+.header__icon {
+  position: absolute;
+  left: 1.15rem;
+}
+.header__download-title {
+  font-size: 12px;
+  color: #ffffff;
+}
+.header--bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 1rem;
+  gap: 5px;
+  border-top: 1px solid #ffffff;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  cursor: pointer;
+}
+.header__logo {
+  color: #ffffff;
+  font-weight: 700;
+  letter-spacing: 0.5rem;
+}
+.header__bar {
+  height: 1.8125rem;
+  background-color: #1e1e1e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  width: 100vw;
+  z-index: 9999;
+}
+.header .bar {
+  position: static;
+}
+.header .navi {
+  height: 97%;
+}
+.header .header__nav-item:nth-child(1) {
+  margin-top: 3rem;
+}
+.header .noi {
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  border-left: 3px solid #181b2a;
+  padding: 0.7rem 1rem;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.header .header__nav-item:nth-child(2),
+.header .header__nav-item:nth-child(3) {
+  gap: 1.25rem;
+}
+.header__nav-icon__apex {
+  width: 2.5rem;
+}
+.header__nav-icon__fifa {
+  width: 2.5rem;
+}
+.header__nav-title {
+  padding: 2.5rem 1rem 1rem 1rem;
+  color: #ffffff;
+  font-size: 0.9375rem;
+}
+.header__nav-menu {
+  width: 10.4375rem;
+  height: 100%;
+  background-color: #181b2a;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+}
+.header__nav-item {
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  border-left: 3px solid #181b2a;
+  padding: 0.7rem 1rem;
+  gap: 1rem;
+}
+.header__nav-item__apex {
+  font-size: 0.8125rem;
+  gap: 0.75rem;
+}
+.header__nav-item__fifa {
+  font-size: 0.8125rem;
+  gap: 0.75rem;
+}
+.header__nav-item__container {
+  width: 100%;
+}
+.header__nav-item--active {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-left: 3px solid #ffffff;
+}
+.header__nav-item--active__apex {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-left: 3px solid #ffffff;
+  font-size: 0.8125rem;
+  gap: 0.75rem;
+}
+.header__nav-item--active__fifa {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-left: 3px solid #ffffff;
+  font-size: 0.8125rem;
+  gap: 0.75rem;
+}/*# sourceMappingURL=Header.css.map */

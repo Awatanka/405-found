@@ -1,0 +1,151 @@
+/* ------------------------------- PRIMARY COLORS ------------------------------- */
+/* ------------------------------- SECONDARY COLORS ------------------------------- */
+/* ------------------------------- BACKGROUND COLORS ------------------------------- */
+/* ------------------------------- SUPPORTING COLORS ------------------------------- */
+/* ------------------------------- BREAKPOINTS ------------------------------- */
+/* media query for mobile*/
+/* media query for tablet */
+/* media query for desktop */
+/* ------------------------------- LARGE DEVICE TYPOGRAPHY ------------------------------- */ /* ------------- PARTIAL IMPORTS ------------- */
+/* ------------- MIXIN FOR PADDING ------------- */
+/* -------------- MIXIN FOR BUTTON STYLING -------------- */
+/* --------------- PARTIAL IMPORTS --------------- */
+.fifa {
+  margin-left: 10.4375rem;
+  margin-top: -50px;
+  position: relative;
+}
+.fifa__button {
+  color: #ffffff;
+  background-color: #276afc;
+  border: 1px solid #276afc;
+  border-radius: 0.375rem;
+  transition: 0.2s ease;
+  padding: 0.5rem 1.0625rem;
+  cursor: pointer;
+  position: absolute;
+  left: 31.5rem;
+  top: 35.3rem;
+  font-size: 1rem;
+  padding: 10px 39px;
+  min-width: 6.5625rem;
+  min-height: 40px;
+}
+.fifa__button:hover {
+  padding: 11px 39px;
+  min-width: 6.5625rem;
+  min-height: 40px;
+  color: #ffffff;
+  background-color: #1e1e1e;
+  border: 1px solid #1e1e1e;
+  border-radius: 0.25rem;
+  transition: 0.3s ease;
+  padding: 0.5rem 1.5rem;
+  cursor: pointer;
+}
+.fifa__home-img {
+  width: 86%;
+  margin-top: 3rem;
+}
+
+.videoPopUp {
+  display: none;
+  padding: 2rem;
+  position: absolute;
+  width: 31.625rem;
+  height: 28.813rem;
+  top: 25%;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #181b2a;
+  border-radius: 0.625rem;
+  flex-direction: column;
+  z-index: 999;
+}
+.videoPopUp__close-icon {
+  display: flex;
+  position: absolute;
+  right: -3%;
+  top: -3%;
+  width: 2.563rem;
+  height: 2.563rem;
+}
+.videoPopUp__close-icon-close-iconWrapper {
+  padding-right: 1rem;
+  display: flex;
+  justify-content: flex-end;
+}
+.videoPopUp-video-container {
+  width: 28rem;
+  height: 16.932rem;
+}
+.videoPopUp__text {
+  font-size: 0.875rem;
+  line-height: 1.063rem;
+}
+.videoPopUp__text-image {
+  gap: 0.5rem;
+}
+.videoPopUp__text-imageIcon {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.videoPopUp__text-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.75rem;
+}
+.videoPopUp__btn {
+  width: 9.063rem;
+  height: 2rem;
+  border-radius: 0.375px;
+  font-size: 0.813rem;
+  line-height: 1rem;
+}
+.videoPopUp__btn-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  gap: 0.625rem;
+  margin-top: 3rem;
+}
+.videoPopUp__btn--save {
+  border: 1px solid #276afc;
+  color: #ffffff;
+  background-color: #181b2a;
+  border-radius: 0.375rem;
+  transition: 0.2s ease;
+  cursor: pointer;
+}
+.videoPopUp__btn--save:hover {
+  color: #ffffff;
+  background-color: #3a74f3;
+  border: 1px solid #3a74f3;
+  border-radius: 0.375rem;
+  transition: 0.2s ease;
+  padding: 0.5rem 1.0625rem;
+  cursor: pointer;
+}
+.videoPopUp__btn--start {
+  background-color: #276afc;
+  color: #ffffff;
+  border: 1px solid #276afc;
+  border-radius: 0.375rem;
+  transition: 0.2s ease;
+  cursor: pointer;
+}
+.videoPopUp__btn--start:hover {
+  color: #ffffff;
+  background-color: #1e1e1e;
+  border: 1px solid #1e1e1e;
+  border-radius: 0.25rem;
+  transition: 0.3s ease;
+  padding: 0.5rem 1.5rem;
+  cursor: pointer;
+}
+
+video {
+  border-radius: 0.625rem;
+}/*# sourceMappingURL=Fifa.css.map */

@@ -1,0 +1,132 @@
+/* ------------------------------- PRIMARY COLORS ------------------------------- */
+/* ------------------------------- SECONDARY COLORS ------------------------------- */
+/* ------------------------------- BACKGROUND COLORS ------------------------------- */
+/* ------------------------------- SUPPORTING COLORS ------------------------------- */
+/* ------------------------------- BREAKPOINTS ------------------------------- */
+/* media query for mobile*/
+/* media query for tablet */
+/* media query for desktop */
+/* ------------------------------- LARGE DEVICE TYPOGRAPHY ------------------------------- */ /* ------------- PARTIAL IMPORTS ------------- */
+/* ------------- MIXIN FOR PADDING ------------- */
+/* -------------- MIXIN FOR BUTTON STYLING -------------- */
+/* --------------- PARTIAL IMPORTS --------------- */
+.profile__card:nth-of-type(1) {
+  padding-top: 1.5rem;
+}
+
+.profile__card:nth-of-type(2),
+.profile__card:nth-of-type(3),
+.profile__card:nth-of-type(4) {
+  padding-top: 1.5rem;
+}
+
+.profile h1,
+.profile h2,
+.profile h3,
+.profile p {
+  color: #ffffff;
+}
+.profile__card {
+  display: flex;
+  gap: 1rem;
+  border-bottom: 1px solid #ffffff;
+  padding-bottom: 1.5rem;
+  border-right: 1px solid #ffffff;
+  padding-right: 1rem;
+}
+.profile__card-socials {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.profile__card-socials__container {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.profile__card-stats {
+  display: flex;
+  justify-content: space-between;
+}
+.profile__card--right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.profile__card--right--top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.profile--bottom {
+  padding: 1rem 2rem 2rem 1rem;
+  background-color: #181b2a;
+  margin-top: 1.5rem;
+  border-radius: 1.5rem;
+  display: flex;
+  gap: 2rem;
+}
+.profile--bottom--right {
+  display: flex;
+  justify-content: center;
+  width: 31.25rem;
+  background-color: #262939;
+  border-radius: 3rem;
+  height: 20rem;
+}
+.profile--bottom--right__achievement {
+  padding-bottom: 1.5rem;
+  font-size: 1.5rem;
+}
+.profile--bottom--right__achievement--first {
+  padding-top: 2.5rem;
+}
+.profile--bottom--right__achievements__container {
+  display: flex;
+  justify-content: space-between;
+  gap: 1.5rem;
+  font-size: 1.5rem;
+}
+.profile--bottom--left__container-title {
+  border-bottom: 1px solid #ffffff;
+  font-size: 2rem;
+  background-image: url("../../assets/icons/Add Icon.svg");
+  background-position-y: center;
+  background-position-x: 61rem;
+  background-repeat: no-repeat;
+}
+.profile--top {
+  padding: 2rem;
+  margin-left: 10.4375rem;
+  width: calc(100vw - 295px);
+  background-size: cover;
+  background: black;
+  overflow: hidden;
+  background: #c33764;
+  background: linear-gradient(rgba(29, 38, 113, 0.8), rgba(195, 55, 100, 0.8)), url("../../assets/icons/Background Profile.svg");
+  padding-top: 3rem;
+  padding-right: 5rem;
+}
+.profile--top__container {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+.profile--top__content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 65vw;
+}
+.profile--top__content--left-user {
+  background-image: url("../../assets/icons/Down Arrow.svg");
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background-position-x: 9rem;
+}
+.profile--top__content--right {
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  gap: 1rem;
+}/*# sourceMappingURL=Profile.css.map */

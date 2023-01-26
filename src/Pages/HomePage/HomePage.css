@@ -1,0 +1,176 @@
+/* ------------------------------- PRIMARY COLORS ------------------------------- */
+/* ------------------------------- SECONDARY COLORS ------------------------------- */
+/* ------------------------------- BACKGROUND COLORS ------------------------------- */
+/* ------------------------------- SUPPORTING COLORS ------------------------------- */
+/* ------------------------------- BREAKPOINTS ------------------------------- */
+/* media query for mobile*/
+/* media query for tablet */
+/* media query for desktop */
+/* ------------------------------- LARGE DEVICE TYPOGRAPHY ------------------------------- */ /* ------------- PARTIAL IMPORTS ------------- */
+/* ------------- MIXIN FOR PADDING ------------- */
+/* -------------- MIXIN FOR BUTTON STYLING -------------- */
+/* --------------- PARTIAL IMPORTS --------------- */
+main {
+  display: flex;
+  margin: auto 0;
+}
+
+.main {
+  background: #1d2033;
+  padding: 0 11rem;
+  display: inline-block;
+  font-family: "Myriad";
+  height: 115vh;
+}
+.main__hero {
+  position: relative;
+  display: flex;
+  justify-content: right;
+  text-align: right;
+  align-items: center;
+}
+.main-top {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  margin-top: 2rem;
+}
+.main-top__hero {
+  margin: auto 0;
+  display: flex;
+}
+.main-top__button-large {
+  color: #ffffff;
+  background-color: #276afc;
+  border: 1px solid #276afc;
+  border-radius: 0.375rem;
+  transition: 0.2s ease;
+  padding: 0.5rem 1.0625rem;
+  cursor: pointer;
+}
+.main-top__button-large:hover {
+  color: #ffffff;
+  background-color: #3a74f3;
+  border: 1px solid #3a74f3;
+  border-radius: 0.375rem;
+  transition: 0.2s ease;
+  padding: 0.5rem 1.0625rem;
+  cursor: pointer;
+}
+.main-top__button-small {
+  color: #ffffff;
+  background-color: #276afc;
+  border: 1px solid #276afc;
+  border-radius: 0.375rem;
+  transition: 0.2s ease;
+  padding: 0.3rem 1rem;
+  cursor: pointer;
+}
+.main-top__button-small:hover {
+  color: #ffffff;
+  background-color: #1e1e1e;
+  border: 1px solid #1e1e1e;
+  border-radius: 0.25rem;
+  transition: 0.3s ease;
+  padding: 0.5rem 1.5rem;
+  cursor: pointer;
+}
+.main-top__image {
+  width: 55rem;
+  height: 26.8125rem;
+  margin-left: 13rem;
+}
+.main-top__box {
+  width: 312px;
+  margin-top: 6.875rem;
+  color: #ffffff;
+  position: absolute;
+  top: 1.25rem;
+  left: 20px;
+}
+.main-top__box-header {
+  color: #ffffff;
+  font-size: 2.1875rem;
+  line-height: 2.5rem;
+  font-weight: 700;
+  font-family: "Myriad";
+}
+.main-top__box-sub {
+  color: #ffffff;
+  margin: 1.5rem 0;
+}
+.main-top__box-text {
+  color: #ffffff;
+  margin-bottom: 0.875rem;
+  font-size: 0.875rem;
+}
+.main-top__search {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  margin-left: 18px;
+  margin-top: 1.3125rem;
+  width: 92%;
+  justify-content: space-between;
+  height: 3.125rem;
+}
+.main-top__search-image {
+  position: absolute;
+  left: 3.825rem;
+  padding: 0.125rem;
+}
+.main-top__search-right {
+  display: flex;
+}
+.main-top__search-arrow {
+  margin-right: 0.375rem;
+}
+.main-top__search-placeholder {
+  height: 1.375rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-right: 3.75rem;
+  background: #d7d5dd;
+  border-radius: 5px;
+  border: #9f9da5;
+  width: 13.25rem;
+  margin-left: 0.8125rem;
+}
+.main-bottom {
+  display: flex;
+  margin-top: 4.75rem;
+  margin-bottom: 3.125rem;
+  justify-content: center;
+}
+.main-bottom__box {
+  margin: 1rem 0 1rem 1rem;
+}
+.main-bottom__box-header, .main-bottom__box-text {
+  color: #ffffff;
+}
+.main-bottom__box-header {
+  margin: 1.5625rem 0;
+  font-weight: 600;
+}
+.main-bottom__box-text {
+  font-size: 0.875rem;
+}
+.main-bottom__box-image:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+::-moz-placeholder {
+  color: #6b6a6d;
+}
+
+:-ms-input-placeholder {
+  color: #6b6a6d;
+}
+
+::placeholder {
+  color: #6b6a6d;
+}/*# sourceMappingURL=HomePage.css.map */

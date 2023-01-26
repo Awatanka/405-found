@@ -1,0 +1,99 @@
+/* ------------------------------- PRIMARY COLORS ------------------------------- */
+/* ------------------------------- SECONDARY COLORS ------------------------------- */
+/* ------------------------------- BACKGROUND COLORS ------------------------------- */
+/* ------------------------------- SUPPORTING COLORS ------------------------------- */
+/* ---------------- PARTIAL IMPORTS ---------------- */
+/* CSS resets */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Myriad";
+  color: #1e1e1e;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+a {
+  text-decoration: none;
+  color: #1e1e1e;
+}
+
+li {
+  list-style-type: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  color: #1e1e1e;
+}
+
+::-moz-placeholder {
+  font-family: "Myriad";
+  color: #1e1e1e;
+}
+
+:-ms-input-placeholder {
+  font-family: "Myriad";
+  color: #1e1e1e;
+}
+
+::placeholder,
+button {
+  font-family: "Myriad";
+  color: #1e1e1e;
+}
+
+button {
+  font-weight: 600;
+}
+
+/* ------------------------------- FONTS ------------------------------- */
+/* Extra Light */
+@font-face {
+  font-family: "Myriad";
+  src: url("../../assets/fonts/MYRIADPRO-LIGHT.otf") format("opentype");
+  font-weight: 200;
+}
+/* Regular */
+@font-face {
+  font-family: "Myriad";
+  src: url("../../assets/fonts/MYRIADPRO-REGULAR.OTF") format("opentype");
+  font-weight: 400;
+}
+/* Semi-Bold */
+@font-face {
+  font-family: "Myriad";
+  src: url("../../assets/fonts/MYRIADPRO-SEMIBOLD.OTF") format("opentype");
+  font-weight: 600;
+}
+/* Bold */
+@font-face {
+  font-family: "Myriad";
+  src: url("../../assets/fonts/MYRIADPRO-BOLD.OTF") format("opentype");
+  font-weight: 700;
+}
+/* ------------------------------- BREAKPOINTS ------------------------------- */
+/* media query for mobile*/
+/* media query for tablet */
+/* media query for desktop */
+/* ------------------------------- LARGE DEVICE TYPOGRAPHY ------------------------------- */ /* ------------- PARTIAL IMPORTS ------------- */
+/* ------------- MIXIN FOR PADDING ------------- */
+/* -------------- MIXIN FOR BUTTON STYLING -------------- */
+/* ------------------------------- PARTIAL IMPORTS ------------------------------- *//*# sourceMappingURL=App.css.map */
