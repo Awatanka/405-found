@@ -1,4 +1,4 @@
-24 hour cross-functional hackathon that was organized by BrainStation in partnership with Electronic Arts (EA). 
+# 24 hour cross-functional hackathon that was organized by BrainStation in partnership with Electronic Arts (EA). 
 
 ## Demo 🌱
 
