@@ -1,5 +1,5 @@
 import "./Header.scss";
-import { NavLink, Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import { RxHamburgerMenu } from "react-icons/rx";
 import Home from "../../assets/icons/Home.svg";
 import Browser from "../../assets/icons/Browse.svg";
@@ -40,7 +40,7 @@ const Header = () => {
           Home
         </NavLink>
         <NavLink
-          to={"/browser"}
+          to={"/browse"}
           className={(navData) =>
             navData.isActive
               ? "header__nav-item header__nav-item--active"
@@ -89,7 +89,11 @@ const Header = () => {
           APEX Legends
         </NavLink>
         <div className="header--bottom">
-          <img src={Download} className="header__download-icon"></img>
+          <img
+            src={Download}
+            alt="icon"
+            className="header__download-icon"
+          ></img>
           <h2 className="header__download-title">Download manager</h2>
         </div>
       </nav>

@@ -70,7 +70,6 @@ const HomePage = () => {
           </div>
         </section>
       </main>
-      
     </>
   );
 };

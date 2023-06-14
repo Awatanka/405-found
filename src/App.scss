@@ -5,3 +5,7 @@
 @use "./styles/partials/breakpoints" as bp;
 @use "./styles/partials/typography" as tp;
 @use "./styles/partials/mixins" as mx;
+
+body {
+    background-color: $background-dark;
+}
