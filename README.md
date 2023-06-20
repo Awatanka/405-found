@@ -1,6 +1,7 @@
 ## Project-winner of 24 hour cross-functional hackathon that was organized by BrainStation in partnership with Electronic Arts (EA).
 
-<video src="https://user-images.githubusercontent.com/97055104/214208149-0e5d4235-ac7e-4d0e-98f2-988d565dd722.mp4" width="500"></video>
+ <video src="https://user-images.githubusercontent.com/97055104/214985341-217f7eb2-0bbf-46eb-a1c0-bfbea209bb4d.mp4">
+  </video>
 
 <br/>
 Tech Stack: React.js, Sass <br/>
